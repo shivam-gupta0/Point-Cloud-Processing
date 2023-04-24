@@ -30,7 +30,7 @@ https://user-images.githubusercontent.com/85798077/234074068-8391188a-7c70-4790-
 https://user-images.githubusercontent.com/85798077/234074084-c640d525-062a-42e0-8327-dd6506036c3c.mp4
 
 
-**point_cloud_iltering.py:**
+**point_cloud_filtering.py:**
 This is a Python script that demonstrates point cloud filtering using the Open3D library. The script defines a class called Pcfiltering that has two methods: pointcloud_sampling and outlier_removal.
 
 The pointcloud_sampling method reads a point cloud from a PLY file, and then demonstrates three types of point cloud downsampling: random down-sampling, uniform down-sampling, and voxel down-sampling. The method then translates each down-sampled point cloud to a different location, and displays all four point clouds using Open3D's visualization functionality.
